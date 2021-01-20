@@ -3,7 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <header id="timer">
+        <h1>Timer</h1>
+      </header>
+      <div class="card">
+        <div class="card-header" id="questions-container">
+          <h2 id="question">Rules of The Quiz</h2>
+        </div>
+        <main>
+          <p id="rules">Rules</p>
+          <div id="answer-btn" class="btn-grid">
+            <button id="ans1" class="btn" style="display: none">Answer</button>
+            <button id="ans2" class="btn" style="display: none">Answer</button>
+            <button id="ans3" class="btn" style="display: none">Answer</button>
+            <button id="ans4" class="btn" style="display: none">Answer</button>
+          </div>
+        </main>
+        <div class="card-footer">
+          <button id="generate" class="btn">Start</button>
+          <!-- <button id="next-btn" class="btn" type="button">Next</button> -->
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
