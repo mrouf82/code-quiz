@@ -1,4 +1,4 @@
-https://mrouf82.github.io/code-quiz/index.html
+https://mrouf82.github.io/code-quiz/
 
 ## Task
 
