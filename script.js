@@ -9,7 +9,7 @@ var score = 0;
 var list = document.querySelector("#list");
 var highscoreButton = document.getElementById("highscore-btn");
 var initialBtn = document.getElementById("initialBtn");
-var initial = document.getElementById("initial");
+var input = document.getElementById("initialInput");
 
 var timer = document.getElementById("timer");
 var time = 30;
@@ -83,7 +83,12 @@ function end() {
   ans4.style.display = "none";
   displayHighScore();
   document.querySelector("#form").style.display = "block";
-  initialBtn.addEventListener("click");
+  initialBtn.addEventListener("click", store);
+}
+
+function store() {
+  var info = input.stringify;
+  document.querySelector("#name").textContent = `${info} ${score}`;
 }
 
 highscoreButton.addEventListener("click", displayHighScore);
