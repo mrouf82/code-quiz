@@ -18,10 +18,24 @@ var response = document.getElementById("response");
 
 //this is where the questions are stored
 var questions = [
-  ["question1", "answer 1", "answer 2", "answer 3", "answer 4", "answer 2"],
-  ["question2", "answer 1B", "answer 2", "answer 3", "answer 4", "answer 3"],
-  ["question3", "answer 1C", "answer 2", "answer 3", "answer 4", "answer 4"],
-  ["question4", "answer 1D", "answer 2", "answer 3", "answer 4", "answer 1"],
+  [
+    "What does JS stand for?",
+    "Yes",
+    "Java Script",
+    "Java Scale",
+    "All of the above",
+    "Java Script",
+  ],
+  [
+    "What does CSS stand for",
+    "Can't Say So",
+    "Cascading Style Sand",
+    "Cascading Style Sheet",
+    "All of the above",
+    "Cascading Style Sheet",
+  ],
+  ["What is 2+2", "6", "Yes", "12", "4", "4"],
+  ["What is 5*2", "10", "Twenty", "yes", "1", "10"],
 ];
 
 function displayQuestion() {
