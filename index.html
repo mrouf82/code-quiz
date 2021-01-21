@@ -9,9 +9,10 @@
   </head>
   <body>
     <div class="wrapper">
-      <header id="timer">
-        <h1>Timer</h1>
+      <header>
+        <h1 id="timer">Timer</h1>
       </header>
+
       <div class="card">
         <div class="card-header" id="questions-container">
           <h2 id="question">Rules of The Quiz</h2>
@@ -27,8 +28,23 @@
         </main>
         <div class="card-footer">
           <button id="generate" class="btn">Start</button>
-          <!-- <button id="next-btn" class="btn" type="button">Next</button> -->
         </div>
+        <p id="response"></p>
+      </div>
+      <div class="side">
+        <button id="highscore-btn" class="btn">Highscore</button>
+        <div id="form" style="display: none">
+          <section>
+            <h2>Your Initials</h2>
+            <input id="initial" type="text" />
+            <button type="button" id="initialBtn">Submit</button>
+          </section>
+        </div>
+        <ul id="list">
+          <b>Score</b>
+          <li>u</li>
+          <li>uh</li>
+        </ul>
       </div>
     </div>
     <script src="script.js"></script>

@@ -7,11 +7,11 @@
 
 html,
 body,
-.wrapper {
+.wrapper,
+.side {
   height: 100%;
   margin: 0;
   padding: 0;
-
   width: 100vw;
   height: 100vh;
 }
@@ -35,7 +35,8 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
-.card {
+.card,
+.side {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
   border-width: 1px;
@@ -64,6 +65,12 @@ header {
   align-items: center;
   flex-direction: column;
 }
+
+/* #list {
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+} */
 
 .card-footer::before {
   content: " ";
